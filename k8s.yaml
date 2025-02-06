@@ -18,7 +18,7 @@ spec:
         - name: utec-proyectos-fin-ghactions
           image: 654654589924.dkr.ecr.sa-east-1.amazonaws.com/backend-group-1-b-ecr:<IMAGE_TAG>
           ports:
-            - containerPort: 8080
+            - containerPort: 8181
 
 ---
 apiVersion: v1
@@ -30,7 +30,7 @@ spec:
     app: utec-proyectos-fin-ghactions
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 8080
+      port: 81
+      targetPort: 8181
   type: LoadBalancer
 
