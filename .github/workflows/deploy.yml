@@ -40,7 +40,7 @@ jobs:
       - name: Build and Push Docker image
         run: |
           IMAGE_TAG=${{ github.sha }}
-          REPOSITORY_URI= 654654589924.dkr.ecr.eu-north-1.amazonaws.com/backend-group-1-b-ecr
+          REPOSITORY_URI=654654589924.dkr.ecr.eu-north-1.amazonaws.com/backend-group-1-b-ecr
           docker build -t $REPOSITORY_URI:$IMAGE_TAG .
           docker push $REPOSITORY_URI:$IMAGE_TAG
 
