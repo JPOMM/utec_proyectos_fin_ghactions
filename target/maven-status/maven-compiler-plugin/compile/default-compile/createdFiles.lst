@@ -1,0 +1,14 @@
+com\proyectos\kpi\finanzas\infraestructure\adaptador\ProyectosPeruRepository.class
+com\proyectos\kpi\finanzas\infraestructure\entity\ProyectosPeruEntity.class
+com\proyectos\kpi\finanzas\SpringBootEksApplication.class
+com\proyectos\kpi\finanzas\domain\model\KpiFinancieros$ProyectoFueraPresupuesto.class
+com\proyectos\kpi\finanzas\domain\model\KpiFinancieros$ProyectoInversion$ProyectoInversionBuilder.class
+com\proyectos\kpi\finanzas\domain\model\ProyectosPeru.class
+com\proyectos\kpi\finanzas\domain\model\KpiFinancieros.class
+com\proyectos\kpi\finanzas\infraestructure\rest\controller\ProyectosController.class
+com\proyectos\kpi\finanzas\infraestructure\config\DatabaseConfig.class
+com\proyectos\kpi\finanzas\domain\model\KpiFinancieros$ProyectoInversion.class
+com\proyectos\kpi\finanzas\domain\model\KpiFinancieros$ProyectoFueraPresupuesto$ProyectoFueraPresupuestoBuilder.class
+com\proyectos\kpi\finanzas\domain\model\KpiFinancieros$KpiFinancierosBuilder.class
+com\proyectos\kpi\finanzas\service\ProyectosPeruService.class
+com\proyectos\kpi\finanzas\service\impl\ProyectosPeruServiceImpl.class
