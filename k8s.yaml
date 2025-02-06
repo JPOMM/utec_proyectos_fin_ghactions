@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: utec-proyectos-fin-ghactions
-          image: 654654589924.dkr.ecr.eu-north-1.amazonaws.com/backend-group-1-b-ecr:<IMAGE_TAG>
+          image: 654654589924.dkr.ecr.sa-east-1.amazonaws.com/springboot-eks:<IMAGE_TAG>
           ports:
             - containerPort: 8080
 
